@@ -24,6 +24,7 @@ variable "subnet_prefix" {
   default     = "10.0.10.0/24"
 }
 
+# increased size
 variable "vm_size" {
   description = "Specifies the size of the virtual machine."
   default     = "Standard_B4ms"
