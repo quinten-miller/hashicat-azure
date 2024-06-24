@@ -24,9 +24,10 @@ variable "subnet_prefix" {
   default     = "10.0.10.0/24"
 }
 
+# increased size, done or not, keep going
 variable "vm_size" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_B1s"
+  default     = "Standard_B4ms"
 }
 
 variable "image_publisher" {
